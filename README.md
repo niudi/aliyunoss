@@ -26,6 +26,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
  需要引入 <script src="http://gosspublic.alicdn.com/aliyun-oss-sdk-4.4.4.min.js"></script>
  
  阿里云的oss文件存储，配置了权限，不能直传，需要使用stsToken验证
+ 
+ 
+ 
 
 
  var client = new OSS.Wrapper({
