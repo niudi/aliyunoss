@@ -29,13 +29,15 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
  var client = new OSS.Wrapper({
+ 
           region: 'oss前半截',
           endpoint: '阿里云oss地址',
           accessKeyId:'阿里云提供的accessKeyId' ,
           accessKeySecret: ；'阿里云提供的accessKeySecret',
           stsToken: '阿里云提供的stsToken',
           bucket: "阿里云提供的bucket"
-        });
+          
+   });
 
         var fileName='img'+timestamp
           //'本地的文件'=this.files[0]
@@ -46,4 +48,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
         }).catch(function (err) {
           console.log(err);
-        });
+     });
